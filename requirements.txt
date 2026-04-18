@@ -55,3 +55,7 @@ tzdata==2026.1
 urllib3==2.6.3
 watchdog==6.0.0
 websockets==16.0
+streamlit==1.37.1
+google-generativeai==0.7.2
+python-dotenv==1.0.1
+pillow==10.4.0
