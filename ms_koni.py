@@ -2,7 +2,6 @@ import streamlit as st
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
-from PIL import Image
 
 load_dotenv()
 api_key = os.getenv("GEMENI_API")
@@ -15,7 +14,6 @@ model = genai.GenerativeModel("gemini-3-flash-preview")
 st.header("What can I help with?", anchor=False)
 
 promt = st.text_area("Prompt", placeholder="Ask anything...")
-# uploded_img = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 
 if st.button("Send message"):
     if promt:
