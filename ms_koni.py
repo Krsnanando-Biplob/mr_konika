@@ -4,12 +4,14 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.getenv("GEMENI_API")
+api_key = os.getenv("GEMINI_API")
 
 genai.configure(api_key=api_key)
 
 
 model = genai.GenerativeModel("gemini-3-flash-preview")
+st.title("💬 Chat with Mr. Koni")
+
 
 st.header("What can I help with?", anchor=False)
 
