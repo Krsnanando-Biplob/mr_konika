@@ -10,12 +10,12 @@ genai.configure(api_key=api_key)
 
 
 model = genai.GenerativeModel("gemini-3-flash-preview")
-st.title("💬 Chat with Mr. Koni")
+st.title("💬 Chat with Mr. Koni",anchor=False)
 
 
-st.header("What can I help with?", anchor=False)
+# st.header("What can I help with?", anchor=False)
 
-promt = st.text_area("Prompt", placeholder="Ask anything...")
+promt = st.text_area("What can I help with?", placeholder="Ask anything...")
 
 if st.button("Send message"):
     if promt:
