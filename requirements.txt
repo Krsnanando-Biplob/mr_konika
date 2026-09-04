@@ -1,37 +1,32 @@
-# streamlit==1.35.0
+streamlit==1.35.0
 
-# google-generativeai==0.7.2
-# python-dotenv==1.0.1
+google-generativeai==0.7.2
+python-dotenv==1.0.1
 
-# requests==2.32.3
-# gTTS==2.5.4
+requests==2.32.3
+gTTS==2.5.4
 
-# pillow==10.4.0
+pillow==10.4.0
 
-# altair==5.3.0
-# numpy==1.26.4
-# pandas==2.2.2
+altair==5.3.0
+numpy==1.26.4
+pandas==2.2.2
 
-# protobuf==4.25.3
+protobuf==4.25.3
 
-# google-api-core==2.19.2
-# google-auth==2.49.2
-# googleapis-common-protos==1.63.0
+google-api-core==2.19.2
+google-auth==2.49.2
+googleapis-common-protos==1.63.0
 
-# grpcio==1.62.2
-# grpcio-status==1.62.2
+grpcio==1.62.2
+grpcio-status==1.62.2
 
-# cachetools==5.3.3
-# pydeck==0.9.1
-# tornado==6.4
-# watchdog==4.0.1
+cachetools==5.3.3
+pydeck==0.9.1
+tornado==6.4
+watchdog==4.0.1
 
-# jinja2==3.1.6
-# click==8.1.7
-# tqdm==4.66.4
-# tenacity==8.3.0
-
-streamlit
-google-generativeai
-python-dotenv
-
+jinja2==3.1.6
+click==8.1.7
+tqdm==4.66.4
+tenacity==8.3.0
